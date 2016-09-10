@@ -1,0 +1,18 @@
+body{
+	background-color: #61122f;
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+
+}
+#header-nav{
+	background-color: #f6b319;
+	border:0;
+	border-radius: 0;
+}
+#logo-img{
+	background: url("../images/jitlada-logo.png") no-repeat;
+	width: 250px;
+	height: 100px;
+
+}
