@@ -1,18 +1,41 @@
 body{
-	background-color: #61122f;
-	font-size: 16px;
-	color: #fff;
-	font-family: 'Oxygen', sans-serif;
+	overflow: scroll;
+	color:black;
 
 }
+
+/** HEADER Style **/
+
 #header-nav{
-	background-color: #f6b319;
-	border:0;
-	border-radius: 0;
+	background-color: grey;
 }
-#logo-img{
-	background: url("../images/jitlada-logo.png") no-repeat;
-	width: 250px;
-	height: 100px;
+.navbar-brand p {
+	color: black;
+}
+#navlist{
+	background-color:white;
+	text-align: center;
+	font-size: 1.2em;
 
+}
+.navbar-nav{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+li{
+	border: 1px solid black;
+}
+
+/** Main Body **/
+.inner{
+	background-color: grey;
+	
+}
+/*#mainbody{
+	border: 2px solid blue;
+	width: 100%;
+	padding-left: auto;	
+} */
+.page-header{
+	border-bottom: 0;
 }
