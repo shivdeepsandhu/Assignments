@@ -25,11 +25,23 @@ body{
 li{
 	border: 1px solid black;
 }
+a{
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
 
 /** Main Body **/
 .inner{
 	background-color: grey;
-	
+	padding: 10px;
+	/*margin:10px;*/
+}
+h3{
+	background-color: grey;
+	margin-bottom: 0px;
 }
 #collapsible-nav{
 	border-top: 0px;
@@ -37,3 +49,10 @@ li{
 .page-header{
 	border-bottom: 0;
 }
+.toplink{
+	color: white;
+	text-decoration-style: unset;
+	
+}
+
+
